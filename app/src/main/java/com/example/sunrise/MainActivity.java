@@ -136,7 +136,6 @@ public class MainActivity extends AppCompatActivity {
         if (diet.equals("vegan")) sum += 8.08;
         if (diet.equals("allMeat")) sum += 13.7;
         if (diet.equals("noBeef")) sum += 10.41;
-        if (diet.equals("noBeef")) sum += 10.41;
         if(power != null) {
             sum += Integer.parseInt(power) * 2.07;
         }
